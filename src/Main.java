@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        Fighter marc = new Fighter("Eray" , 15 , 100, 90, 0);
-        Fighter alex = new Fighter("Mert" , 10 , 95, 100, 0);
+        Isci employee = new Isci ("Soner DEMİRCİ",10000,45 , 2003);
 
-        Ring r = new Ring(marc,alex , 90 , 100);
-        r.run();
 
+        String s = employee.toString();
+        System.out.println(s);
     }
 }

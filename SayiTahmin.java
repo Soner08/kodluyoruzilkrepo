@@ -7,7 +7,7 @@ public class SayiTahmin {
     public static void main(String[] args) {
         Random rand = new Random();
         int number = rand.nextInt(100);
-        //int number = (int) (Math.random() * 100);
+        
 
         Scanner input = new Scanner(System.in);
         int right = 0;
